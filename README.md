@@ -39,6 +39,9 @@ on:
     branches:
       - master
 
+permissions:           # You may need this permission for removing old releases
+  contents: write
+
 jobs:
   publish:
     runs-on: ubuntu-latest
